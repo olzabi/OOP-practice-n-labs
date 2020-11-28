@@ -1,0 +1,9 @@
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab7_v9\lab7_v9\bin\Debug\net48\lab7_v9.exe.config
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab7_v9\lab7_v9\bin\Debug\net48\lab7_v9.exe
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab7_v9\lab7_v9\bin\Debug\net48\lab7_v9.pdb
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab7_v9\lab7_v9\obj\Debug\net48\lab7_v9.csprojAssemblyReference.cache
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab7_v9\lab7_v9\obj\Debug\net48\lab7_v9.AssemblyInfoInputs.cache
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab7_v9\lab7_v9\obj\Debug\net48\lab7_v9.AssemblyInfo.cs
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab7_v9\lab7_v9\obj\Debug\net48\lab7_v9.csproj.CoreCompileInputs.cache
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab7_v9\lab7_v9\obj\Debug\net48\lab7_v9.exe
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab7_v9\lab7_v9\obj\Debug\net48\lab7_v9.pdb
