@@ -16,8 +16,10 @@ namespace lab8_v9.Class
         // method returns a line with a given variable
         // type DataTime, formatted to show a short date "dd.mm.yyyy" 
         public override void Display()
-        {   
-            Console.WriteLine(ExpirationDate.ToString("d"));
+        {  
+            Console.WriteLine("Commodity name: {0}", Name );
+            Console.WriteLine("Commodity cost: {0}", Cost );
+            Console.WriteLine("exp. date: {0}", ExpirationDate.ToString("d"));
         }
     }
 }
