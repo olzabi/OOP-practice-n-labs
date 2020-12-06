@@ -1,0 +1,16 @@
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab8_v9\lab8_v9\bin\Debug\net5.0\lab8_v9.exe
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab8_v9\lab8_v9\bin\Debug\net5.0\lab8_v9.deps.json
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab8_v9\lab8_v9\bin\Debug\net5.0\lab8_v9.runtimeconfig.json
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab8_v9\lab8_v9\bin\Debug\net5.0\lab8_v9.runtimeconfig.dev.json
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab8_v9\lab8_v9\bin\Debug\net5.0\lab8_v9.dll
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab8_v9\lab8_v9\bin\Debug\net5.0\ref\lab8_v9.dll
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab8_v9\lab8_v9\bin\Debug\net5.0\lab8_v9.pdb
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab8_v9\lab8_v9\obj\Debug\net5.0\lab8_v9.csprojAssemblyReference.cache
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab8_v9\lab8_v9\obj\Debug\net5.0\lab8_v9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab8_v9\lab8_v9\obj\Debug\net5.0\lab8_v9.AssemblyInfoInputs.cache
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab8_v9\lab8_v9\obj\Debug\net5.0\lab8_v9.AssemblyInfo.cs
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab8_v9\lab8_v9\obj\Debug\net5.0\lab8_v9.csproj.CoreCompileInputs.cache
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab8_v9\lab8_v9\obj\Debug\net5.0\lab8_v9.dll
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab8_v9\lab8_v9\obj\Debug\net5.0\ref\lab8_v9.dll
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab8_v9\lab8_v9\obj\Debug\net5.0\lab8_v9.pdb
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab8_v9\lab8_v9\obj\Debug\net5.0\lab8_v9.genruntimeconfig.cache
