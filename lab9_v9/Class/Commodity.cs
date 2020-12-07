@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Threading;
 using lab9_v9.Interfaces;
@@ -35,33 +36,40 @@ namespace lab9_v9.Class
         }
 
         // Methods 
-        // IComparable --> CompareTo, not done yet
+        // IComparable --> CompareTo √
         public virtual int CompareTo(object obj)
         {
-            if (obj == null)
-            {
-                return 1;
-            }
-            Commodity c = obj as Commodity; // double casting 
-            if (c == null)
+            
+            Commodity c =  (Commodity)obj; // double casting 
+            if (c.Equals(null))
             {
                 throw new Exception("error: CompareTo()");
             }
-            
-            return CompareTo(c);
+            return Cost.CompareTo(c.Cost);
         }
-        
+
+        public static bool operator <(Commodity obj1, Commodity obj2)
+        {
+            return (obj1.CompareTo(obj2) < 0);
+        }
+
+        public static bool operator >(Commodity obj1, Commodity obj2)
+        {
+            return (obj1.CompareTo(obj2) > 0);
+        }
+
         // IComparer --> Compare √  
         public virtual int Compare(object obj1, object obj2)
         {
-            return ((new CaseInsensitiveComparer()).Compare(obj1, obj2));
+            Commodity o1 = (Commodity) obj1;
+            Commodity o2 = (Commodity) obj2;
+            if (o1.Cost < o2.Cost) {
+                return 1;
+            } else if (o1.Cost > o2.Cost) {
+                return -1;
+            } else {
+                return 0;
+            }
         }
-        
-        // IEnumerable --> GetEnumerator
-
-        // public virtual IEnumerator GetEnumerator()
-        // {
-        //     
-        // }
     }
 }

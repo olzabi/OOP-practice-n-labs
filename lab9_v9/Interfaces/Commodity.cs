@@ -20,6 +20,7 @@ namespace lab9_v9.Interfaces
         // Methods
         int IComparable.CompareTo(object obj);
         int IComparer.Compare(object obj1, object obj2);
-        IEnumerator IEnumerable.GetEnumerator();
     }
+    
+    p
 }
