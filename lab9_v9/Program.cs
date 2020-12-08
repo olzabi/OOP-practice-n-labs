@@ -26,19 +26,14 @@ namespace lab9_v9
     {
         static void Main(string[] args)
         {
-            Toy t1 = new Toy()
-            {
-                Brand = "Gun Powder",
-                Color = Color.Aquamarine,
-                Cost = 3455,
-                InternalId = 0,
-                IsInStoke = true,
-                Name = "Police Chibi",
-                Size = 50,
-                Style = "small piece of coolity"
-            };
+            Toy t1 = new Toy("Police Chibi", 345, "Gun Powder", Color.Aqua, 50, "small piece of coolity",
+                true, 0.33);
+            Toy t2 = new Toy("Beebop", 774,"Jp bla-bla inc.",
+                Color.Beige, 164, "Original masterpiece chibi", false, 0.34);
+            
 
             Console.WriteLine(t1.ToString());
+            Console.WriteLine(t2.ToString());
         }
     }
 }

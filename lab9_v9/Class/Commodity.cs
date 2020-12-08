@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Threading;
 using lab9_v9.Interfaces;
 
 namespace lab9_v9.Class
 {
-    public abstract class Commodity : ICommodity
+    public abstract class Commodity : ICommodity, IComparable
     {
         // Fields
         protected static int NextId;
@@ -20,14 +19,15 @@ namespace lab9_v9.Class
         public string Style { get; set; }
         public Int32 Cost { get; set; }
         public bool IsInStoke { get; set; }
-
-
-        // Совсем не принципиально будет ли объект иммутабельным или нет, поэтому используем две формы.
-        protected Commodity() { }
+        
+        
+        
         protected Commodity(string name, Int32 cost, string brand, Color color, Int32 size, string style,
             bool isInStoke)
         {
             InternalId = Interlocked.Increment(ref NextId);
+            Name = name;
+            Cost = cost;
             Brand = brand;
             Color = color;
             Size = size;
@@ -39,7 +39,6 @@ namespace lab9_v9.Class
         // IComparable --> CompareTo √
         public virtual int CompareTo(object obj)
         {
-            
             Commodity c =  (Commodity)obj; // double casting 
             if (c.Equals(null))
             {

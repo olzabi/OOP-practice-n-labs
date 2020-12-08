@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Formats.Asn1;
 using System.Threading;
@@ -9,17 +10,27 @@ namespace lab9_v9.Class
     public class Toy : Commodity
     {
         // Fields
-        private double _tradeMargin { get; set; }
-        public double TradeMargin => _tradeMargin;
-        
+        private double _tradeMargin;
+        public double TradeMargin
+        {
+            get => _tradeMargin;
+            set => _tradeMargin = value;
 
-        public Toy(){}
-        public Toy(string name, Int32 cost, string brand, Color color, Int32 size,
-            string style, bool isInStoke, Int32 retailPrice, double tradeMargin) :
-            
+        }
+        // string name, Int32 cost, string brand, Color color, Int32 size,
+        //string style, bool isInStoke, double tradeMargin
+        public Toy(
+            string name,
+            Int32 cost,
+            string brand,
+            Color color,
+            Int32 size,
+            string style,
+            bool isInStoke,
+            double tradeMargin
+            ) :
             base(name, cost, brand, color, size, style, isInStoke)
         {
-            InternalId = Interlocked.Increment(ref NextId);
             _tradeMargin = tradeMargin;
         }
 
@@ -32,9 +43,9 @@ namespace lab9_v9.Class
         }
         
         // IComparer --> compare by price or size
-        public new class CompareBySize: IComparer
+        public new class CompareBySize: IComparer<Toy>
         {
-            public int Compare(object obj1, object obj2)
+            public int Compare(Toy obj1, Toy obj2)
             {
                 Toy o1 = (Toy) obj1;
                 Toy o2 = (Toy) obj2;
@@ -58,9 +69,15 @@ namespace lab9_v9.Class
 
         public override string ToString()
         {
-            Console.WriteLine("Name - Brand - Color - Size - Style - Cost - Retail price - Is in stoke -  ");
-            return $"{this.InternalId}, {this.Name}, {this.Brand}, {this.Color}, {this.Size}, {this.Style}, {this.Cost}, {Cost + (Cost * _tradeMargin)}, {this.IsInStoke}";
+            return $"|------ Id ------| --> {InternalId}" +
+                   $"\n|----- Name -----| --> {Name}" +
+                   $"\n|----- Brand ----| --> {Brand}" +
+                   $"\n|----- Color ----| --> {Color}" +
+                   $"\n|----- Size -----| --> {Size}" +
+                   $"\n|----- Style ----| --> {Style}" +
+                   $"\n|----- Cost -----| --> {Cost}" +
+                   $"\n|- Retail price -| --> {Cost + (Cost * _tradeMargin)}" +
+                   $"\n|- Is in stoke --| --> {IsInStoke}";
         }
-        // string name, Int32 cost, string brand, Color color, Int32 size, string style, bool isInStoke, Int32 retailPrice, double tradeMargin
     }
 }
