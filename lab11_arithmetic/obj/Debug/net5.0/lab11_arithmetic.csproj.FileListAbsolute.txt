@@ -1,0 +1,16 @@
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab11_arithmetic\bin\Debug\net5.0\lab11_arithmetic.exe
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab11_arithmetic\bin\Debug\net5.0\lab11_arithmetic.deps.json
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab11_arithmetic\bin\Debug\net5.0\lab11_arithmetic.runtimeconfig.json
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab11_arithmetic\bin\Debug\net5.0\lab11_arithmetic.runtimeconfig.dev.json
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab11_arithmetic\bin\Debug\net5.0\lab11_arithmetic.dll
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab11_arithmetic\bin\Debug\net5.0\ref\lab11_arithmetic.dll
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab11_arithmetic\bin\Debug\net5.0\lab11_arithmetic.pdb
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab11_arithmetic\obj\Debug\net5.0\lab11_arithmetic.csprojAssemblyReference.cache
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab11_arithmetic\obj\Debug\net5.0\lab11_arithmetic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab11_arithmetic\obj\Debug\net5.0\lab11_arithmetic.AssemblyInfoInputs.cache
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab11_arithmetic\obj\Debug\net5.0\lab11_arithmetic.AssemblyInfo.cs
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab11_arithmetic\obj\Debug\net5.0\lab11_arithmetic.csproj.CoreCompileInputs.cache
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab11_arithmetic\obj\Debug\net5.0\lab11_arithmetic.dll
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab11_arithmetic\obj\Debug\net5.0\ref\lab11_arithmetic.dll
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab11_arithmetic\obj\Debug\net5.0\lab11_arithmetic.pdb
+C:\Users\olzab\Desktop\OOP-practice-n-labs\lab11_arithmetic\obj\Debug\net5.0\lab11_arithmetic.genruntimeconfig.cache
