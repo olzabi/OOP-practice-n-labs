@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 using lab9_v9.Class;
 
 namespace lab9_v9
@@ -31,16 +33,27 @@ namespace lab9_v9
             {
                 new Toy("wasp", 345, "Gun Powder", Color.BlueViolet, 173, "Animal",
                     true, 0.33),
-                new Toy("Dragon Ball", 345, "Gun Powder", Color.Salmon, 25, "Fantasy",
+                new Toy("Dragon Ball", 222, "Gun Powder", Color.Salmon, 25, "Fantasy",
                     true, 0.33),
-                new Toy("Glec", 345, "Gun Powder", Color.DodgerBlue, 73, "idk",
+                new Toy("Glec", 623, "Gun Powder", Color.DodgerBlue, 73, "idk",
                     true, 0.33)
             };
 
-            foreach (Toy toy in toys)
+            IEnumerable<Toy> s = toys.OrderBy(toy => toy.Cost); // smallest --> largest
+            IEnumerable<Toy> l = toys.OrderByDescending(toy => toy.Cost); // largest --> smallest
+            
+            foreach (Toy toy in l)
             {
-                Console.WriteLine(toy.Name, toy.Cost);
+                Console.WriteLine("{0}--{1}", toy.Name, toy.Cost);
             }
+            
+            
+            foreach (Toy toy in s)
+            {
+                Console.WriteLine("{0}--{1}", toy.Name, toy.Cost);
+            }
+            
+            
             
             List<Toy> arr = new List<Toy>(); // lab 11 --> List<T>
 
