@@ -69,15 +69,15 @@ namespace lab9_v9.Class
 
         public override string ToString()
         {
-            return $"|------ Id ------| --> {InternalId}" +
-                   $"\n|----- Name -----| --> {Name}" +
-                   $"\n|----- Brand ----| --> {Brand}" +
-                   $"\n|----- Color ----| --> {Color}" +
-                   $"\n|----- Size -----| --> {Size}" +
-                   $"\n|----- Style ----| --> {Style}" +
-                   $"\n|----- Cost -----| --> {Cost}" +
-                   $"\n|- Retail price -| --> {Cost + (Cost * _tradeMargin)}" +
-                   $"\n|- Is in stoke --| --> {IsInStoke}";
+            return $"|------ Id ------| \t {InternalId}" +
+                   $"\n|----- Name -----| \t {Name}" +
+                   $"\n|----- Brand ----| \t {Brand}" +
+                   $"\n|----- Color ----| \t {Color.ToKnownColor()}" +
+                   $"\n|----- Size -----| \t {Size}" +
+                   $"\n|----- Style ----| \t {Style}" +
+                   $"\n|----- Cost -----| \t {Cost}" +
+                   $"\n|- Retail price -| \t {Cost + (Cost * _tradeMargin)}" +
+                   $"\n|- Is in stoke --|\t {IsInStoke}\n";
         }
     }
 }
