@@ -1,0 +1,16 @@
+C:\Users\olzab\Desktop\OOP-practice-n-labs\FinalTest_t2\FinalTest_t2\bin\Debug\net5.0\FinalTest_t2.exe
+C:\Users\olzab\Desktop\OOP-practice-n-labs\FinalTest_t2\FinalTest_t2\bin\Debug\net5.0\FinalTest_t2.deps.json
+C:\Users\olzab\Desktop\OOP-practice-n-labs\FinalTest_t2\FinalTest_t2\bin\Debug\net5.0\FinalTest_t2.runtimeconfig.json
+C:\Users\olzab\Desktop\OOP-practice-n-labs\FinalTest_t2\FinalTest_t2\bin\Debug\net5.0\FinalTest_t2.runtimeconfig.dev.json
+C:\Users\olzab\Desktop\OOP-practice-n-labs\FinalTest_t2\FinalTest_t2\bin\Debug\net5.0\FinalTest_t2.dll
+C:\Users\olzab\Desktop\OOP-practice-n-labs\FinalTest_t2\FinalTest_t2\bin\Debug\net5.0\ref\FinalTest_t2.dll
+C:\Users\olzab\Desktop\OOP-practice-n-labs\FinalTest_t2\FinalTest_t2\bin\Debug\net5.0\FinalTest_t2.pdb
+C:\Users\olzab\Desktop\OOP-practice-n-labs\FinalTest_t2\FinalTest_t2\obj\Debug\net5.0\FinalTest_t2.csprojAssemblyReference.cache
+C:\Users\olzab\Desktop\OOP-practice-n-labs\FinalTest_t2\FinalTest_t2\obj\Debug\net5.0\FinalTest_t2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olzab\Desktop\OOP-practice-n-labs\FinalTest_t2\FinalTest_t2\obj\Debug\net5.0\FinalTest_t2.AssemblyInfoInputs.cache
+C:\Users\olzab\Desktop\OOP-practice-n-labs\FinalTest_t2\FinalTest_t2\obj\Debug\net5.0\FinalTest_t2.AssemblyInfo.cs
+C:\Users\olzab\Desktop\OOP-practice-n-labs\FinalTest_t2\FinalTest_t2\obj\Debug\net5.0\FinalTest_t2.csproj.CoreCompileInputs.cache
+C:\Users\olzab\Desktop\OOP-practice-n-labs\FinalTest_t2\FinalTest_t2\obj\Debug\net5.0\FinalTest_t2.dll
+C:\Users\olzab\Desktop\OOP-practice-n-labs\FinalTest_t2\FinalTest_t2\obj\Debug\net5.0\ref\FinalTest_t2.dll
+C:\Users\olzab\Desktop\OOP-practice-n-labs\FinalTest_t2\FinalTest_t2\obj\Debug\net5.0\FinalTest_t2.pdb
+C:\Users\olzab\Desktop\OOP-practice-n-labs\FinalTest_t2\FinalTest_t2\obj\Debug\net5.0\FinalTest_t2.genruntimeconfig.cache
